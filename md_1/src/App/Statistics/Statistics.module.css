@@ -1,0 +1,40 @@
+.statsSection {
+  width: 268px;
+  height: 130px;
+  border: 1px #d8e0ea solid;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.statList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  border-top: 1px red solid;
+  margin: 0;
+  height: 48%;
+  line-height: 1.5;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  width: 100%;
+  text-align: center;
+}
+
+.label {
+  font-size: medium;
+}
+
+.percentage {
+  font-size: larger;
+}

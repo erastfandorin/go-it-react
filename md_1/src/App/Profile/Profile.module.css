@@ -1,0 +1,17 @@
+body {
+  background-color: #e7ecf2;
+  margin: 0;
+}
+
+.profile {
+  width: 251px;
+  height: 331px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  border: 1px #d8e0ea solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #fff;
+}

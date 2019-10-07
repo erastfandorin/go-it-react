@@ -1,0 +1,29 @@
+.description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatar {
+  width: 102px;
+  margin: 0 auto;
+  margin-top: 32px;
+  border-radius: 51px;
+}
+
+.tag {
+  margin: 0;
+  margin-top: 11px;
+}
+
+.name {
+  margin: 0;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.location {
+  margin: 0;
+  margin-top: 13px;
+}

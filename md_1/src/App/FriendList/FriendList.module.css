@@ -1,0 +1,42 @@
+.friend {
+  width: 268px;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  background-color: aliceblue;
+  border: 1px red solid;
+}
+
+.name {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.avatar {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px;
+  margin: 5px;
+  margin-top: 23px;
+}
+
+.isOnline {
+  composes: status;
+  background-color: green;
+}

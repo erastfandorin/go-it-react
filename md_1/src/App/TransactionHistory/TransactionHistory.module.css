@@ -1,0 +1,42 @@
+.transactionHistory {
+  width: 600px;
+  list-style-type: none;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.thead {
+  background-color: #00bcd5;
+  color: white;
+}
+
+.trThead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.trTbody {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ecf1f4;
+}
+
+.trTbody:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.td {
+  width: 33%;
+  height: 52px;
+  text-align: start;
+  padding-left: 67px;
+  line-height: 51px;
+}
+
+.td:nth-child(n + 2) {
+  border-left: 1px solid grey;
+}
